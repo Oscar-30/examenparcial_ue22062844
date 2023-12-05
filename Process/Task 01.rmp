@@ -48,7 +48,7 @@
         <parameter key="encoding" value="SYSTEM"/>
       </operator>
       <operator activated="true" class="store" compatibility="10.2.000" expanded="true" height="68" name="Store" width="90" x="380" y="34">
-        <parameter key="repository_entry" value="//Local Repository/examenparcial_ue22062844/Data/full_dataset"/>
+        <parameter key="repository_entry" value="//Local Repository/examenparcial_ue22062844/Data/whole_dataset"/>
       </operator>
       <connect from_op="Read CSV" from_port="output" to_op="Write CSV" to_port="input"/>
       <connect from_op="Write CSV" from_port="through" to_op="Store" to_port="input"/>
